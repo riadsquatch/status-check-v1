@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service &amp; ISP Status Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Service &amp; ISP Status Hub</h1>
+      <p class="tagline">Centralized directory for major cloud infrastructure and direct ISP outage checkers.</p>
+    </header>
+
+    <section aria-labelledby="cloud-heading">
+      <h2 id="cloud-heading">Cloud &amp; Infrastructure Services</h2>
+      <ul class="grid">
+        <li><a class="link" href="https://status.cloud.google.com/" target="_blank" rel="noopener">
+          <span class="name">Google Cloud</span>
+          <span class="desc">Infrastructure &amp; cloud services status.</span>
+          <span class="host">status.cloud.google.com</span></a></li>
+        <li><a class="link" href="https://www.google.com/appsstatus/dashboard/" target="_blank" rel="noopener">
+          <span class="name">Google Workspace</span>
+          <span class="desc">Gmail, Drive, Docs, and Calendar status.</span>
+          <span class="host">google.com/appsstatus</span></a></li>
+        <li><a class="link" href="https://www.cloudflarestatus.com/" data-status-api="https://www.cloudflarestatus.com/api/v2/status.json" target="_blank" rel="noopener">
+          <span class="name">Cloudflare</span>
+          <span class="desc">Edge network, CDN, and DNS status.</span>
+          <span class="host">cloudflarestatus.com</span></a></li>
+        <li><a class="link" href="https://status.office.com/" target="_blank" rel="noopener">
+          <span class="name">Microsoft 365</span>
+          <span class="desc">Teams, Outlook, and Office apps status.</span>
+          <span class="host">status.office.com</span></a></li>
+        <li><a class="link" href="https://azure.status.microsoft/en-us/status" target="_blank" rel="noopener">
+          <span class="name">Microsoft Azure</span>
+          <span class="desc">Azure cloud platform availability.</span>
+          <span class="host">azure.status.microsoft</span></a></li>
+        <li><a class="link" href="https://health.aws.amazon.com/health/status" target="_blank" rel="noopener">
+          <span class="name">AWS Health</span>
+          <span class="desc">Amazon Web Services dashboard.</span>
+          <span class="host">health.aws.amazon.com</span></a></li>
+        <li><a class="link" href="https://www.githubstatus.com/" data-status-api="https://www.githubstatus.com/api/v2/status.json" target="_blank" rel="noopener">
+          <span class="name">GitHub</span>
+          <span class="desc">Repositories, Actions, and API status.</span>
+          <span class="host">githubstatus.com</span></a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="isp-heading">
+      <h2 id="isp-heading">Internet Service Providers (Outage &amp; Status Checkers)</h2>
+      <ul class="grid">
+        <li><a class="link" href="https://www.xfinity.com/support/statusmap" target="_blank" rel="noopener">
+          <span class="name">Comcast (Xfinity)</span>
+          <span class="desc">Official account outage address lookup.</span>
+          <span class="host">xfinity.com/support/statusmap</span></a></li>
+        <li><a class="link" href="https://downdetector.com/status/spectrum/" target="_blank" rel="noopener">
+          <span class="name">Spectrum (Downdetector)</span>
+          <span class="desc">Live user outage maps &amp; status tracker.</span>
+          <span class="host">downdetector.com/status/spectrum</span></a></li>
+        <li><a class="link" href="https://www.att.com/outages/" target="_blank" rel="noopener">
+          <span class="name">AT&amp;T</span>
+          <span class="desc">Official service outage map center.</span>
+          <span class="host">att.com/outages</span></a></li>
+        <li><a class="link" href="https://www.verizon.com/support/check-network-status/" target="_blank" rel="noopener">
+          <span class="name">Verizon</span>
+          <span class="desc">Fios &amp; home network status portal.</span>
+          <span class="host">verizon.com/support/check-network-status</span></a></li>
+        <li><a class="link" href="https://statusgator.com/services/t-mobile/map" target="_blank" rel="noopener">
+          <span class="name">T-Mobile</span>
+          <span class="desc">5G Home Internet &amp; coverage checker.</span>
+          <span class="host">statusgator.com/services/t-mobile/map</span></a></li>
+        <li><a class="link" href="https://fiber.google.com/outage/" target="_blank" rel="noopener">
+          <span class="name">GFiber (Google Fiber)</span>
+          <span class="desc">Official Google Fiber outage portal.</span>
+          <span class="host">fiber.google.com/outage</span></a></li>
+        <li><a class="link" href="https://frontier.com/pages/helpcenter/internet/troubleshooting/check-for-service-outages" target="_blank" rel="noopener">
+          <span class="name">Frontier Communications</span>
+          <span class="desc">Broadband &amp; fiber support status.</span>
+          <span class="host">frontier.com/helpcenter</span></a></li>
+        <li><a class="link" href="https://downdetector.com/status/centurylink/" target="_blank" rel="noopener">
+          <span class="name">CenturyLink (Downdetector)</span>
+          <span class="desc">Live user outage maps &amp; status tracker.</span>
+          <span class="host">downdetector.com/status/centurylink</span></a></li>
+        <li><a class="link" href="https://downdetector.com/status/earthlink/" target="_blank" rel="noopener">
+          <span class="name">EarthLink (Downdetector)</span>
+          <span class="desc">Live user outage maps &amp; status tracker.</span>
+          <span class="host">downdetector.com/status/earthlink</span></a></li>
+        <li><a class="link" href="https://downdetector.com/status/wave-broadband/" target="_blank" rel="noopener">
+          <span class="name">Astound (Downdetector)</span>
+          <span class="desc">Live user outage maps &amp; status tracker.</span>
+          <span class="host">downdetector.com/status/astound-broadband</span></a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
